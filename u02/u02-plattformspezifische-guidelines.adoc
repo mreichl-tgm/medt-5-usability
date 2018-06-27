@@ -1,0 +1,47 @@
+= U02 Plattformspezifische Guidelines
+== Grundanforderungen:
+=== Suche dir eine plattformspezifische Guideline aus: Android, iOS, Windows (eigene Vorschläge möglich)
+Android
+
+=== Wähle daraus vier Empfehlungen, die du für wichtig erachtest und beschreibe sie (jeweils 1 Absatz)
+==== Adaptive Launcher Icons
+Sinnvoll für die ideale Darstellung auf allen Android Geräten.
+==== Naming Conventions
+Wichtig in der Entwicklung, vor allem wenn mehrere Benutzer an einem Projekt arbeiten.
+==== Widget Design Guidelines
+Zur responsiven Anpassung an die verwendete Widget Größe. Hilft auch bei der Anpassung an andere Apps für ein besseres Benutzererlebnis.
+==== Use Vector Shapes
+Immer eine gute Empfehlung um einfach mehrere Auflösungen zu unterstützen.
+
+=== Warum hast du dich für diese entschieden? Begründe!
+Wichtig bei der geräteunabhängigen Entwicklung und zur optimalen Anpassung an das Android Betriebssystem.
+
+== Erweiterung:
+=== Finde zu allen vier Empfehlungen ein Praxisbeispiel (App, Anwendung), welches die Empfehlung gut oder schlecht umsetzt
+# WhatsApp. Allgemeine Einhaltung durch Icons und Emojis
+# Telegram. Einhaltung hilft bei der Entwicklung von Erweiterungen
+# Spotify. Gut integriert auf allen Geräten
+# OperaVPN. Schöne Icons und Obeflächen komplett auf Vektorbasis.
+
+=== Beschreibe es (mit Screenshots)!
+# WhatsApp
+    image::wa.jpg
+# Telegram
+    image::tg.jpg
+# Spotify
+    image::sp.jpg
+# OperaVPN
+    image::op.jpg
+
+=== Deckt die Guideline alle wichtigen Punkte ab? Überlege dir eine Empfehlung, die der Guideline hinzugefügt werden könnte, und beschreibe sie so wie auf der Webseite!
+Mehr als ausreichend. Hinzufügen könnte man eventuell noch Richtlinien zu Farben.
+
+==== Use common colors
+Try to use the provided colors when similar colors are required.
+|===
+| Color, Red Green Blue Alpha
+| Black 100, rgba(4 2 3 0)
+| White 10, rgba(16, 16, 16, 0)
+| White 0, rgba(255 255 255 0)
+| ..., ...
+|===
